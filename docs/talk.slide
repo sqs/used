@@ -1,0 +1,64 @@
+Using data to write better Go code
+19:00 23 Mar 2017
+
+Quinn Slack
+Founder/CEO, Sourcegraph
+sqs@sourcegraph.com
+https://sourcegraph.com
+@sqs
+
+* Why does better code matter?
+
+Your Go program already:
+
+- compiles
+- has users
+- solves problems
+- makes money (or in San Francisco, has raised VC money)
+
+So...why does better code matter?
+
+* Why does the environment matter?
+
+Your widget factory already makes money.
+
+So...why does the environment matter?
+
+.image factory.svg _ 200
+
+* The unseen future costs you impose on others
+
+What about the people in the future who will...
+
+- use your code?
+- maintain your code?
+- learn from your code?
+
+* Solving the problem
+
+Fixing the environment is not as easy as "just don't pollute."
+
+Writing better code is not as easy as "just write better code."
+
+Given finite time, what improvement would have the biggest impact?
+
+* To write better code, treat code as data
+
+Introducing [[https://github.com/sqs/used][github.com/sqs/used]], a new tool that analyzes a Go program to approximately answer:
+
+"What's the highest impact piece of code I can fix right now?"
+
+It can:
+
+- list the most-used identifiers
+- sort linter output to show higher-impact problems first
+
+* Demos: Using used to improve real Go projects
+
+- [[https://github.com/gorilla/mux][github.com/gorilla/mux]]
+- [[https://github.com/driusan/dgit][github.com/driusan/dgit]]
+- [[https://github.com/alistanis/st][github.com/alistanis/st]]
+- [[https://github.com/mholt/caddy][github.com/mholt/caddy]]
+- [[https://github.com/radovskyb/watcher][github.com/radovskyb/watcher]]
+- [[https://github.com/chewxy/gorgonia][github.com/chewxy/gorgonia]]
+- Others? We'll do it live!

@@ -7,7 +7,7 @@ It can also filter the output of [gometalinter](https://github.com/alecthomas/go
 ## Install
 
 ```
-go get github.com/sqs/used
+go get github.com/sqs/used/cmd/used
 ```
 
 ## Usage

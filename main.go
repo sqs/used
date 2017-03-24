@@ -1,5 +1,5 @@
 // used reports the most-used identifiers in your code.
-package main // import "github.com/sqs/used/cmd/used"
+package main
 
 import (
 	"bufio"
@@ -21,7 +21,7 @@ import (
 	"golang.org/x/tools/go/loader"
 
 	"github.com/kisielk/gotool"
-	"github.com/sqs/used"
+	used "github.com/sqs/used/lib"
 
 	"honnef.co/go/tools/lint"
 	"honnef.co/go/tools/lint/lintutil"

@@ -1,4 +1,4 @@
-package used // import "github.com/sqs/used"
+package used
 
 import (
 	"fmt"
